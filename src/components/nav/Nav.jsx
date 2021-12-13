@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 //import logo from '../../assets/loggo.png'
 import { Link } from "react-router-dom";
 import { CounterContext, CartContext } from '../../context/AppContext'
-import Dropdown from '../dropdown/dropdown.component'
-import Button from '../button/button.component'
+import Dropdown from '../dropdown/Dropdown'
+import Button from '../button/Button'
 import './Nav.css'
 
 const Header = () => {
