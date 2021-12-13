@@ -4,7 +4,7 @@ import Header from "./components/Nav/Nav";
 import Products from "./pages/product/Product";
 //import CheckOut from './pages/checkout/Checkout';
 //import HorizontalLinearStepper from './pages/stepper/stepper.component';
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import {
   CartContext,
   CounterContext,
@@ -31,12 +31,12 @@ function App() {
               <br />
               <br />
               <br />
-              <Switch>
-                <Route exact path="/" component={Homepage} />
-                <Route path="/products" component={Products} />
-                <Route path="/checkout" component={CheckOut} />
-                <Route path="/payment" component={HorizontalLinearStepper} />
-              </Switch>
+              <Routes>
+                <Route path="/" element={<Homepage />} />
+                <Route path="/products" element={<Products />} />
+                <Route path="/checkout" element={<CheckOut />} />
+                <Route path="/payment" element={<HorizontalLinearStepper />} />
+              </Routes>
             </div>
           </ShippingContext.Provider>
         </CounterContext.Provider>
