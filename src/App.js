@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Homepage from "./pages/homepage/Homepage";
 import Header from "./components/Nav/Nav";
 import Products from "./pages/product/Product";
-//import CheckOut from './pages/checkout/Checkout';
+import CheckOut from "./pages/checkout/Checkout";
 //import HorizontalLinearStepper from './pages/stepper/stepper.component';
 import { Routes, Route } from "react-router-dom";
 import {
