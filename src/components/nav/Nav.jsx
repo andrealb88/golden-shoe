@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { CounterContext, CartContext } from '../../context/AppContext'
 import Dropdown from '../dropdown/dropdown.component'
 import Button from '../button/button.component'
-import './header.styles.scss'
+import './Nav.css'
 
 const Header = () => {
     let count = useContext(CounterContext)
