@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from '../../components/slider/Slider'
 import Heading from '../../components/heading/Heading'
 import CollectionOverview from '../../components/collection-overview/CollectionOverview'
-import './homepage.css'
+import './Homepage.css'
 
 const Homepage = () => {
     return (
