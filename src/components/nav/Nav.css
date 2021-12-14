@@ -1,0 +1,31 @@
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.fixed-bottom,
+.fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+@media (min-width: 992px) .navbar-expand-lg {
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.navbar,
+.navbar .container,
+.navbar .container-fluid,
+.navbar .container-lg,
+.navbar .container-md,
+.navbar .container-sm,
+.navbar .container-xl {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
