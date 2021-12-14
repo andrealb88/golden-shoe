@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/golden-shoe/static/css/main.0356d659.chunk.css",
+    "main.css": "/golden-shoe/static/css/main.3e5a94c4.chunk.css",
     "main.js": "/golden-shoe/static/js/main.4638b9e5.chunk.js",
     "main.js.map": "/golden-shoe/static/js/main.4638b9e5.chunk.js.map",
     "runtime-main.js": "/golden-shoe/static/js/runtime-main.3c605466.js",
@@ -10,13 +10,13 @@
     "static/js/3.edfecb56.chunk.js": "/golden-shoe/static/js/3.edfecb56.chunk.js",
     "static/js/3.edfecb56.chunk.js.map": "/golden-shoe/static/js/3.edfecb56.chunk.js.map",
     "index.html": "/golden-shoe/index.html",
-    "static/css/main.0356d659.chunk.css.map": "/golden-shoe/static/css/main.0356d659.chunk.css.map",
+    "static/css/main.3e5a94c4.chunk.css.map": "/golden-shoe/static/css/main.3e5a94c4.chunk.css.map",
     "static/js/2.ed13498f.chunk.js.LICENSE.txt": "/golden-shoe/static/js/2.ed13498f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3c605466.js",
     "static/js/2.ed13498f.chunk.js",
-    "static/css/main.0356d659.chunk.css",
+    "static/css/main.3e5a94c4.chunk.css",
     "static/js/main.4638b9e5.chunk.js"
   ]
 }
