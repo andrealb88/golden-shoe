@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-//import logo from './public/images/g-shoe-new-logo.jpg'
+import logo from './public/images/g-shoe-new-logo.jpg'
 import { Link } from "react-router-dom";
 import { CounterContext, CartContext } from '../../context/AppContext'
 import Dropdown from '../dropdown/Dropdown'
