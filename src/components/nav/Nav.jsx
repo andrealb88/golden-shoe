@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import logo from '../../images/g-shoe-new-logo.jpg'
+//import logo from 
 import { Link } from "react-router-dom";
 import { CounterContext, CartContext } from '../../context/AppContext'
 import Dropdown from '../dropdown/Dropdown'
@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <div>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow ">
-                <Link to='/'><img className="logo ml-3" src={logo} alt='logo' /></Link>
+                <Link to='/'><img className="logo ml-3" src='../public/images/g-shoe-new-logo.jpg' alt='logo' /></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
