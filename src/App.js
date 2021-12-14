@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Homepage from "./pages/homepage/Homepage";
-import Header from "./components/Nav/Nav";
+import Header from "./components/nav/Nav";
 import Products from "./pages/product/Product";
 import CheckOut from "./pages/checkout/Checkout";
 import HorizontalLinearStepper from "./pages/stepper/Stepper";

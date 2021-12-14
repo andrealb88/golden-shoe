@@ -1,5 +1,4 @@
-import React, { useContext } from 'react'
-//import logo from 
+import React, { useContext } from 'react' 
 import { Link } from "react-router-dom";
 import { CounterContext, CartContext } from '../../context/AppContext'
 import Dropdown from '../dropdown/Dropdown'
