@@ -14,7 +14,7 @@
   background-color: #f8f9fa !important;
 }
 .navbar {
-  height: 200px;
+  width: 200px;
 }
 @media (min-width: 992px) {
   .navbar-expand-lg {
