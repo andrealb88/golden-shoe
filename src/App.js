@@ -28,7 +28,7 @@ function App() {
           >
             <div>
               <Header />
-              <Homepage />
+              <Slider />
               <br />
               <br />
               <br />
