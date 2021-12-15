@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/golden-shoe/static/css/main.628076c4.css",
-    "main.js": "/golden-shoe/static/js/main.48a7982d.js",
+    "main.css": "/golden-shoe/static/css/main.3a261527.css",
+    "main.js": "/golden-shoe/static/js/main.fd602b32.js",
     "static/js/787.2da5246e.chunk.js": "/golden-shoe/static/js/787.2da5246e.chunk.js",
     "static/media/apparel-footwear-shoe-clothing.jpg": "/golden-shoe/static/media/apparel-footwear-shoe-clothing.3b9e3ed12c49c989221c.jpg",
     "index.html": "/golden-shoe/index.html",
-    "main.628076c4.css.map": "/golden-shoe/static/css/main.628076c4.css.map",
-    "main.48a7982d.js.map": "/golden-shoe/static/js/main.48a7982d.js.map",
+    "main.3a261527.css.map": "/golden-shoe/static/css/main.3a261527.css.map",
+    "main.fd602b32.js.map": "/golden-shoe/static/js/main.fd602b32.js.map",
     "787.2da5246e.chunk.js.map": "/golden-shoe/static/js/787.2da5246e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.628076c4.css",
-    "static/js/main.48a7982d.js"
+    "static/css/main.3a261527.css",
+    "static/js/main.fd602b32.js"
   ]
 }
