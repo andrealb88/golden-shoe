@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './Slider.css'
 import Button from '../button/Button'
