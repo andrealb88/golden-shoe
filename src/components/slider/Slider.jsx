@@ -1,7 +1,7 @@
 
 import React from 'react'
-import './slider.styles.scss'
-import Button from '../button/button.component'
+import './slider.css'
+import Button from '../button/Button'
 
 const Slider = () => {
     return (
