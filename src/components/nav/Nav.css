@@ -13,6 +13,9 @@
 .bg-light {
   background-color: #f8f9fa !important;
 }
+.logo {
+  width: 200px;
+}
 
 @media (min-width: 992px) {
   .navbar-expand-lg {
