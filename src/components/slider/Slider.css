@@ -1,5 +1,7 @@
 .body {
-  background-image: url(../../assets/apparel-footwear-shoe-clothing.jpg);
+  background-image: url(background-image:../../assets/apparel-footwear-shoe-clothing.jpg);
+  width: 100%;
+  height: 653px;
 }
 .main-image {
   /* background-image: url(../../assets/apparel-footwear-shoe-clothing.jpg); */
