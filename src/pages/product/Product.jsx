@@ -1,5 +1,5 @@
 import React from 'react'
-import SHOE_DATA from '../../pages/shoeData'
+import SHOE_DATA from '../shoeData'
 import MenuItem from '../../components/menu/Menu'
 import Heading from '../../components/heading/Heading'
 
