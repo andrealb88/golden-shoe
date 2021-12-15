@@ -6,7 +6,7 @@ import Button from '../button/Button'
 const Slider = () => {
     return (
         <div className="main-image">
-            <div className="img-content">
+            <div class="img-content">
                 <p>THINKING OF BUYING A SHOES</p>
                 <h2>
                     Trending <br /> Shoes
