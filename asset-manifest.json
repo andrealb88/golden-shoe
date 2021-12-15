@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/golden-shoe/static/css/main.d946de63.css",
-    "main.js": "/golden-shoe/static/js/main.c0a65143.js",
+    "main.js": "/golden-shoe/static/js/main.48a7982d.js",
     "static/js/787.2da5246e.chunk.js": "/golden-shoe/static/js/787.2da5246e.chunk.js",
     "index.html": "/golden-shoe/index.html",
     "main.d946de63.css.map": "/golden-shoe/static/css/main.d946de63.css.map",
-    "main.c0a65143.js.map": "/golden-shoe/static/js/main.c0a65143.js.map",
+    "main.48a7982d.js.map": "/golden-shoe/static/js/main.48a7982d.js.map",
     "787.2da5246e.chunk.js.map": "/golden-shoe/static/js/787.2da5246e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d946de63.css",
-    "static/js/main.c0a65143.js"
+    "static/js/main.48a7982d.js"
   ]
 }
