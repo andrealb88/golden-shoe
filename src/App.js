@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Homepage from "./pages/homepage/Homepage";
+import Slider from "./components/slider/Slider";
 import Header from "./components/nav/Nav";
 import Products from "./pages/product/Product";
 import CheckOut from "./pages/checkout/Checkout";
