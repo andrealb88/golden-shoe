@@ -13,9 +13,7 @@
 .bg-light {
   background-color: #f8f9fa !important;
 }
-.navbar {
-  width: 200px;
-}
+
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
