@@ -28,6 +28,7 @@ function App() {
           >
             <div>
               <Header />
+              <Homepage />
               <br />
               <br />
               <br />
