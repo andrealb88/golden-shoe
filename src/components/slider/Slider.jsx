@@ -7,7 +7,7 @@ const Slider = () => {
     return (
         <div className="main-image">
             <div class="img-content">
-                <div style={{url:"../../assets/apparel-footwear-shoe-clothing.jpg"}}></div>
+                <div style={{backgroundImage:url("../../assets/apparel-footwear-shoe-clothing.jpg")}}></div>
                 <p>THINKING OF BUYING A SHOES</p>
                 <h2>
                     Trending <br /> Shoes
