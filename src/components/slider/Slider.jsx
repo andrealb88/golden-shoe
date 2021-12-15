@@ -1,6 +1,5 @@
-
 import React from 'react'
-import './slider.css'
+import './Slider.css'
 import Button from '../button/Button'
 
 const Slider = () => {
