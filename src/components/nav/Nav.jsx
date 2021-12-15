@@ -5,6 +5,7 @@ import Dropdown from '../dropdown/Dropdown'
 import Button from '../button/Button'
 import './Nav.css'
 
+
 const Header = () => {
     let count = useContext(CounterContext)
     let [cart, setCart] = useContext(CartContext)
@@ -35,7 +36,7 @@ const Header = () => {
                             {/* cart dropdown */}
                             <div className="dropdown m-0 p-0 dropleft">
                                 <button className="btn m-0 p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i className="bi bi-cart2"></i>
+                                    <div class="cart"></div>
                                     <div className="counter">
                                         <p className='count'>{count[0]}</p>
                                     </div>
