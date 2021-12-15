@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/golden-shoe/static/css/main.3e5a94c4.chunk.css",
-    "main.js": "/golden-shoe/static/js/main.f535480c.chunk.js",
-    "main.js.map": "/golden-shoe/static/js/main.f535480c.chunk.js.map",
-    "runtime-main.js": "/golden-shoe/static/js/runtime-main.3c605466.js",
-    "runtime-main.js.map": "/golden-shoe/static/js/runtime-main.3c605466.js.map",
-    "static/js/2.ed13498f.chunk.js": "/golden-shoe/static/js/2.ed13498f.chunk.js",
-    "static/js/2.ed13498f.chunk.js.map": "/golden-shoe/static/js/2.ed13498f.chunk.js.map",
-    "static/js/3.edfecb56.chunk.js": "/golden-shoe/static/js/3.edfecb56.chunk.js",
-    "static/js/3.edfecb56.chunk.js.map": "/golden-shoe/static/js/3.edfecb56.chunk.js.map",
+    "main.css": "/golden-shoe/static/css/main.d946de63.css",
+    "main.js": "/golden-shoe/static/js/main.c0a65143.js",
+    "static/js/787.2da5246e.chunk.js": "/golden-shoe/static/js/787.2da5246e.chunk.js",
     "index.html": "/golden-shoe/index.html",
-    "static/css/main.3e5a94c4.chunk.css.map": "/golden-shoe/static/css/main.3e5a94c4.chunk.css.map",
-    "static/js/2.ed13498f.chunk.js.LICENSE.txt": "/golden-shoe/static/js/2.ed13498f.chunk.js.LICENSE.txt"
+    "main.d946de63.css.map": "/golden-shoe/static/css/main.d946de63.css.map",
+    "main.c0a65143.js.map": "/golden-shoe/static/js/main.c0a65143.js.map",
+    "787.2da5246e.chunk.js.map": "/golden-shoe/static/js/787.2da5246e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c605466.js",
-    "static/js/2.ed13498f.chunk.js",
-    "static/css/main.3e5a94c4.chunk.css",
-    "static/js/main.f535480c.chunk.js"
+    "static/css/main.d946de63.css",
+    "static/js/main.c0a65143.js"
   ]
 }
