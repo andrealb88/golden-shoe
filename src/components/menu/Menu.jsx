@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { CartContext, CounterContext } from '../../context/AppContext';
 import './Menu.css';
+import icons from 'bootstrap-icons'
 
 const MenuItem = ({ item }) => {
   const { name, imageUrl, price, sale } = item    // destructure values from item(prop)
@@ -36,7 +37,7 @@ const MenuItem = ({ item }) => {
             alt="Card cap"
           />
           <div className="card-body p-0 m-0 d-block text-center p-2">
-            <i className="far fa-star"></i>
+          <div className="bi bi-star"></div>
             <i className="far fa-star"></i>
             <i className="far fa-star"></i>
             <i className="far fa-star"></i>
