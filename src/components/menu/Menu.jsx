@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { CartContext, CounterContext } from '../../context/AppContext';
 import './Menu.css';
-import icons from 'bootstrap-icons'
 
 const MenuItem = ({ item }) => {
   const { name, imageUrl, price, sale } = item    // destructure values from item(prop)
