@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import { ShippingContext } from '../../../context/AppContext'
 import Button from '../../button/Button'
 import { Heading2 } from '../../heading/Heading'
-import './AdressInformationc.ss'
+import './AdressInformation.css'
 
 
 const AddressInformation = ({ handleNext }) => {
