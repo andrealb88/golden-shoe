@@ -8,7 +8,7 @@ const Slider = () => {
     return (
         <div className="main-image">
             <div class="img-content">
-                <p>THINKING OF BUYING A SHOES</p>
+                <p>THINKING OF BUYING SHOES</p>
                 <h2>
                     Trending <br /> Shoes
                 </h2>

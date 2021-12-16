@@ -1,5 +1,5 @@
 import React from 'react'
-import SHOE_DATA from '../../pages/shoeData'
+import SHOE_DATA from '../../pages/shoeProducts/ShoeProducts'
 import MenuItem from '../menu/Menu'
 
 const CollectionOverview = () => {
