@@ -37,10 +37,10 @@ const MenuItem = ({ item }) => {
           />
           <div className="card-body p-0 m-0 d-block text-center p-2">
           <div className="bi bi-star"></div>
-            <i className="far fa-star"></i>
-            <i className="far fa-star"></i>
-            <i className="far fa-star"></i>
-            <i className="far fa-star"></i>
+          <div className="bi bi-star"></div>
+          <div className="bi bi-star"></div>
+          <div className="bi bi-star"></div>
+          <div className="bi bi-star"></div>
             <span className="name d-block">{name}</span>
             <span className="price">${price}</span>
             <p className={sale ? "saleY" : "saleN"}>
