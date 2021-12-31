@@ -7,7 +7,7 @@ import './Homepage.css'
 const Homepage = () => {
     return (
         <div className='home-page'>
-            <Slider /><br/><br/>
+            <Slider />
             <Heading trendingShoes/>           
             <CollectionOverview />      {/* collections of shoes */}
         </div>

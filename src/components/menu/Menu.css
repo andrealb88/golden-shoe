@@ -1,4 +1,4 @@
-.bi {
+/* .bi {
   margin: 2px;
   color: #4ed7b7;
   font-size: 12px;
@@ -49,8 +49,8 @@ button {
   text-align: center;
   /* &:hover{
             color: white; */
-  /* } */
-}
+/* } */
+/* }
 
 .btn2 {
   width: 50%;
@@ -69,7 +69,7 @@ button {
   box-shadow: 1px 1px 2px black;
   font-size: 13px;
   text-align: center;
-}
+} */
 /* &:hover{
             color: white;
         } */
@@ -78,9 +78,28 @@ button {
         img{
             opacity: 0.8;
         } */
-button {
+/* button {
   opacity: 0.85;
   display: inline;
   text-align: center;
-}
+} */
 /* } */
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

@@ -30,9 +30,6 @@ function App() {
             <div>
               <Header />
               <Slider />
-              <br />
-              <br />
-              <br />
               <Routes>
                 <Route path="/" element={<Homepage />} />
                 <Route path="/products" element={<Products />} />

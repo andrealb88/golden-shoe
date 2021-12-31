@@ -16,7 +16,7 @@ const Heading = ({ checkOut, personalInformation, trendingShoes }) => {
                         <h2><span>Y</span><span className="o">O</span>UR <span className='ml-1'>C</span><span className="o"> A</span>RT</h2>
                         :
                         trendingShoes ?
-                            <h2><span>T</span> RENDING <span>S</span> H<span className="o">O</span>ES</h2>
+                            <h2>TRENDING SHOES</h2>
                             :
                             null
                     }

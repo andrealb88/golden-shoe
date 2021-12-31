@@ -5,4 +5,5 @@ const CartContext = createContext()
 const TotalContext = createContext(0)
 const ShippingContext = createContext()
 
+
 export{CartContext,CounterContext, TotalContext, ShippingContext}
