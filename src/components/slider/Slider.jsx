@@ -8,7 +8,7 @@ const Slider = () => {
         <div className="main-image">
             <div className="img-content">
             <img
-                 className="logo ml-3"
+                 className="logo ml-4"
                  src="./images/g-shoe-new-logo.jpg"
                  alt="logo"
                />
