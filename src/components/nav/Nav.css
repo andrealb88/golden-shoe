@@ -265,12 +265,11 @@ menu-item:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 41%;
 }
 .stars {
   display: flex;
 }
-.img {
+.logo ml-3 {
   width: 10%;
 }
 @media (max-width: 576px) {
