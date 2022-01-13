@@ -7,11 +7,6 @@ const Slider = () => {
     return (
         <div className="main-image">
             <div className="img-content">
-            <img
-                 className="logo ml-4"
-                 src="./images/g-shoe-new-logo.jpg"
-                 alt="logo"
-               />
                 <p>THINKING OF BUYING SHOES</p>
                 <h2>
                     Trending Shoes
