@@ -269,7 +269,7 @@ menu-item:hover {
 .stars {
   display: flex;
 }
-.logo ml-3 {
+.logo.ml-3 {
   width: 10%;
 }
 @media (max-width: 576px) {
