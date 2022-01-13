@@ -88,7 +88,7 @@ button {
   flex: 0 0 50%;
   max-width: 50%;
 }
-img {
+.logo ml-3 {
   width: 100%;
 }
 @media (min-width: 768px) {
