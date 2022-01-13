@@ -3,6 +3,9 @@
 }
 .navbar-nav {
   display: flex;
+  height: 100%;
+  max-width: 100%;
+  margin-left: -20%;
 }
 /* .fixed-bottom,
 .fixed-top {
@@ -253,17 +256,16 @@ menu-item:hover {
   margin-top: -16%;
   margin-bottom: 21%;
 }
-.navbar.fixed-top {
-  display: flex;
-}
+
 .flex-justify-content {
   display: flex;
   margin: 10%;
 }
 .navbar.fixed-top {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  margin-right: 41%;
 }
 .stars {
   display: flex;
