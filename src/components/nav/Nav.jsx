@@ -121,7 +121,7 @@ let [cart, setCart] = useContext(CartContext);
 
     <Navbar>
         <div className="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow ">
-             <div className="logo">
+             {/* <div className="logo"> */}
              <Link to="/">
                <img
                  className="logo ml-3"
@@ -129,7 +129,7 @@ let [cart, setCart] = useContext(CartContext);
                  alt="logo"
                />
             </Link>
-            </div> 
+            {/* </div>  */}
              <div className="flex-justify-content">
             <NavItem icon={<ArrowBarDown />} ><Link to="/products">
                <div className="nav-item">
@@ -193,19 +193,19 @@ function DropdownMenu() {
      const height = el.offsetHeight;
     setMenuHeight(height);
   }
-  function DropdownItem(props) {
-    return (
-      <a
-        href="#"
-        className="menu-item"
-        onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
-      >
-        <span className="icon-button">{props.leftIcon}</span>
-        {props.children}
-        <span className="icon-right">{props.rightIcon}</span>
-      </a>
-    );
-  }
+//   function DropdownItem(props) {
+//     return (
+//       <a
+//         href="#"
+//         className="menu-item"
+//         onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
+//       >
+//         <span className="icon-button">{props.leftIcon}</span>
+//         {props.children}
+//         <span className="icon-right">{props.rightIcon}</span>
+//       </a>
+//     );
+//   }
 
   return (
     <div className="dropdown" style={{ height: menuHeight }} ref={dropdownRef}>
@@ -216,9 +216,9 @@ function DropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}
       > */}
-        <div className="menu">
+        {/* <div className="menu">
           <DropdownItem>Go to checkout</DropdownItem>
-          <div className="dropdown">
+          <div className="dropdown"> */}
          {/* <CSSTransition
          in={activeMenu === "main"}
         timeout={500}
@@ -260,9 +260,9 @@ function DropdownMenu() {
               
       {/* </CSSTransition>  */}
       </div>
-        </div>
-      {/* </CSSTransition> */}
-</div>
+        // </div>
+      /* </CSSTransition> */
+// </div>
   )        
 }
 }

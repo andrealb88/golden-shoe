@@ -36,16 +36,20 @@ const MenuItem = ({ item }) => {
             alt="Card cap"
           />
           <div className="card-body p-0 m-0 d-block text-center p-2">
+            <div className='stars'>
           <div className="bi bi-star"></div>
           <div className="bi bi-star"></div>
           <div className="bi bi-star"></div>
           <div className="bi bi-star"></div>
           <div className="bi bi-star"></div>
+          </div>
+          <div className='bottom-card'>
             <span className="name d-block">{name}</span>
             <span className="price">${price}</span>
             <p className={sale ? "saleY" : "saleN"}>
               {sale}
             </p>
+            </div>
           </div>
           <button className={!sale ? "btn" : "btn2"} onClick={() => addToCart(item)}>Add to Cart</button>
         </div>
