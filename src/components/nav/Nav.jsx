@@ -122,13 +122,13 @@ let [cart, setCart] = useContext(CartContext);
     <Navbar>
         <div className="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow ">
              {/* <div className="logo"> */}
-             <Link to="/">
+             {/* <Link to="/"> */}
                <img
                  className="logo ml-3"
                  src="./images/g-shoe-new-logo.jpg"
                  alt="logo"
                />
-            </Link>
+            {/* </Link> */}
             {/* </div>  */}
              <div className="flex-justify-content">
             <NavItem icon={<ArrowBarDown />} ><Link to="/products">
