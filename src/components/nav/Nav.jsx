@@ -121,7 +121,7 @@ let [cart, setCart] = useContext(CartContext);
 
     <Navbar>
         <div className="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow ">
-             {/* <div className="logo"> */}
+             <div className="logo">
              {/* <Link to="/"> */}
                <img
                  className="logo ml-3"
@@ -129,14 +129,14 @@ let [cart, setCart] = useContext(CartContext);
                  alt="logo"
                />
             {/* </Link> */}
-            {/* </div>  */}
+            </div>
              <div className="flex-justify-content">
-            <NavItem icon={<ArrowBarDown />} ><Link to="/products">
+            <NavItem icon={<ArrowBarDown />} ><Link className="product"to="/products">
                <div className="nav-item">
                  <p>Products</p>
                </div>
              </Link></NavItem>
-            <NavItem icon={<HouseDoor />}><Link to="/">
+            <NavItem icon={<HouseDoor />}><Link className="home" to="/">
                <div className="nav-item active">
                  <p>Home</p>
                </div>
@@ -146,7 +146,7 @@ let [cart, setCart] = useContext(CartContext);
         </DropdownMenu>
         <div className="dropdown-item bbtn-droopdown">
                 <div className="moreProd">
-                  <Link to="/checkout">
+                  <Link className="checkout" to="/checkout">
                     <Button value="Go To CheckOut" />
                   </Link>
                 </div>  
