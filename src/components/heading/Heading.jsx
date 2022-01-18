@@ -13,10 +13,10 @@ const Heading = ({ checkOut, personalInformation, trendingShoes }) => {
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
                     {checkOut ?
-                        <h2><span>Y</span><span className="o">O</span>UR <span className='ml-1'>C</span><span className="o"> A</span>RT</h2>
+                        <h2 id='checkout'>YOUR CART</h2>
                         :
                         trendingShoes ?
-                            <h2>TRENDING SHOES</h2>
+                            <h2 id='title'>TRENDING SHOES</h2>
                             :
                             null
                     }
@@ -29,7 +29,7 @@ const Heading = ({ checkOut, personalInformation, trendingShoes }) => {
                     <i className="fa fa-star"></i>
                 </>
                 :
-                <h2><span>P</span> ERSONAL <span>I</span> NF<span className="o">O</span>RMATION</h2>
+                <h2>PERSONAL INFORMATION</h2>
             }
         </div>
     )

@@ -99,7 +99,7 @@ const Checkout = () => {
                             <p>Your cart is empty</p>
                     }
                     {cart.length ?
-                        <div>
+                        <div className='price'>
                             <h1 className="totalPrice">
                                 Total Price: <span>${total}</span>
                             </h1><br /><br />

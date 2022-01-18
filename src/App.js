@@ -3,6 +3,7 @@ import Homepage from "./pages/homepage/Homepage";
 import Slider from "./components/slider/Slider";
 import Header from "./components/nav/Nav";
 import Products from "./pages/product/Product";
+import ScrollToTop from "./components/ScrollToTop";
 import CheckOut from "./pages/checkout/Checkout";
 import HorizontalLinearStepper from "./pages/stepper/Stepper";
 import { Routes, Route } from "react-router-dom";
@@ -30,6 +31,7 @@ function App() {
             <div>
               <Header />
               <Slider />
+              <ScrollToTop />
               <Routes>
                 <Route path="/" element={<Homepage />} />
                 <Route path="/products" element={<Products />} />

@@ -82,3 +82,23 @@ p {
     font-size: 11px;
   }
 } */
+.check-out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row.pb-5.pt-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-md-2col-sm-3col-3text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
