@@ -36,8 +36,8 @@ const AddressInformation = ({ handleNext }) => {
                                         .required('State is required'),
                                     code: Yup
                                         .string()
-                                        .max(5, 'zip code must contain 5 digits')
-                                        .min(5, 'zip code must contain 5 digits')
+                                        .max(6, 'zip code must contain 6 digits')
+                                        .min(6, 'zip code must contain 6 digits')
                                         .required('Zip Code is required'),
                                     address: Yup
                                         .string()
@@ -52,13 +52,13 @@ const AddressInformation = ({ handleNext }) => {
                             >
                                 <Form>
                                     <label htmlFor="country">Country</label>
-                                    <Field id="country" name="country" placeholder="Pakistan" />
+                                    <Field id="country" name="country" placeholder="United Kingdom" />
                                     <ErrorMessage name="country">
                                         {(msg) => <div className="error-message">{msg}</div>}
                                     </ErrorMessage>
 
                                     <label htmlFor="city">City</label>
-                                    <Field id="city" name="city" placeholder="Islamabad" />
+                                    <Field id="city" name="city" placeholder="Manchester" />
                                     <ErrorMessage name="city">
                                         {(msg) => <div className="error-message">{msg}</div>}
                                     </ErrorMessage>
@@ -67,7 +67,7 @@ const AddressInformation = ({ handleNext }) => {
                                     <Field
                                         id="state"
                                         name="state"
-                                        placeholder="Punjab"
+                                        placeholder="Lancashire"
                                     />
                                     <ErrorMessage name="state">
                                         {(msg) => <div className="error-message">{msg}</div>}
@@ -77,8 +77,8 @@ const AddressInformation = ({ handleNext }) => {
                                     <Field
                                         id="code"
                                         name="code"
-                                        placeholder="43000"
-                                        type="number"
+                                        placeholder="pr26qt"
+                                        type="string"
                                     />
                                     <ErrorMessage name="code">
                                         {(msg) => <div className="error-message">{msg}</div>}

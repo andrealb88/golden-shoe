@@ -83,15 +83,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-
-  /* transform: translateX(14%); */
 }
-/* @media (max-width: 1024px) {
-  .nav-item {
-    bottom: 52px;
-    left: 103px;
-  }
-} */
 
 .icon-button {
   --button-size: calc(var(--nav-size) * 0.5);
@@ -143,7 +135,6 @@ menu-item:hover {
   margin-left: auto;
 }
 
-/* CSSTransition classes  */
 .menu-primary-enter {
   position: absolute;
   transform: translateX(-110%);

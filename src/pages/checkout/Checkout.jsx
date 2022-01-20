@@ -10,14 +10,9 @@ const Checkout = () => {
     let [cart, setCart] = useContext(CartContext);
     let [total, setTotal] = useContext(TotalContext)
     const [, forceRender] = useState({});
-
-    // total
     const sum = cart.reduce((total, item) => total + item.price * item.quantity, 0);
     const totalPrice = Number(sum)
     setTotal(totalPrice)
-
-
-    // increase quantity 
     const increaseQuantity = (cartItems, ItemtoAdd) => {
         cartItems.map(cartItem =>
             cartItem.id === ItemtoAdd.id

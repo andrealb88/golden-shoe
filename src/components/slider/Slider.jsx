@@ -7,10 +7,10 @@ const Slider = () => {
     return (
         <div className="main-image">
             <div className="img-content">
-                <p>THINKING OF BUYING SHOES</p>
-                {/* <h2>
+                <p>Bring power to your steps</p>
+                <h2>
                     Trending Shoes
-                </h2> */}
+                </h2>
                 <Button value='Shop Now'/>
             </div>
         </div>

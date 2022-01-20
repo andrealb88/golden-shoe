@@ -1,17 +1,11 @@
 import React from 'react'
-import './Heading.css'
+
 
 const Heading = ({ checkOut, personalInformation, trendingShoes }) => {
     return (
         <div className="heading">
             {!personalInformation ?
                 <>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
                     {checkOut ?
                         <h2 id='checkout'>YOUR CART</h2>
                         :
@@ -20,13 +14,6 @@ const Heading = ({ checkOut, personalInformation, trendingShoes }) => {
                             :
                             null
                     }
-
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
                 </>
                 :
                 <h2>PERSONAL INFORMATION</h2>

@@ -6,7 +6,6 @@ import React from 'react';
 //import Typography from '@material-ui/core/Typography';
 import PersonalInformation from '../../components/form/personal-information/PersonalInformation'
 import AddressInformation from '../../components/form/address-information/AddressInformation'
-import PlaceOrder from '../../components/form/place-order/PlaceOrder'
 import SubmittedMessage from '../../components/form/submitted-message/SubmittedMessage'
 import './Stepper.css'
 
@@ -35,7 +34,7 @@ function getStepContent(step, handleNext) {
         case 1:
             return <AddressInformation handleNext={handleNext} />;
         case 2:
-            return <PlaceOrder handleNext={handleNext} />;
+            return <div handleNext={handleNext} />;
         default:
             return 'Unknown step';
     }
