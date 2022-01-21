@@ -22,13 +22,11 @@ let [cart, setCart] = useContext(CartContext);
     <Navbar>
         <div className="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow ">
              <div className="logo"> 
-             {/* <Link to="/"> */}
                <img
                  className="logo ml-3"
                  src="./images/g-shoe-new-logo.jpg"
                  alt="logo"
                />
-            {/* </Link> */}
             </div>
              <div className="flex-justify-content">
            
@@ -78,7 +76,7 @@ function NavItem(props) {
 }
 
 function DropdownMenu() {
-  const [activeMenu, setActiveMenu] = useState("main");
+  // const [activeMenu, setActiveMenu] = useState("main");
   const [menuHeight, setMenuHeight] = useState(null);
   const dropdownRef = useRef(null);
 
@@ -86,10 +84,10 @@ function DropdownMenu() {
     setMenuHeight(dropdownRef.current?.firstChild.offsetHeight);
   }, []);
 
-  function calcHeight(el) {
-     const height = el.offsetHeight;
-    setMenuHeight(height);
-  }
+  // function calcHeight(el) {
+  //    const height = el.offsetHeight;
+  //   setMenuHeight(height);
+  // }
 
   return (
     <div className="dropdown" ref={dropdownRef}>

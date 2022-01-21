@@ -13,6 +13,8 @@ const Checkout = () => {
     const sum = cart.reduce((total, item) => total + item.price * item.quantity, 0);
     const totalPrice = Number(sum)
     setTotal(totalPrice)
+
+
     const increaseQuantity = (cartItems, ItemtoAdd) => {
         cartItems.map(cartItem =>
             cartItem.id === ItemtoAdd.id
@@ -24,8 +26,6 @@ const Checkout = () => {
         forceRender({});
     }
 
-
-    // decreae quantity 
     const RemoveItem = (cartItems, cartItemToRemove) => {
         let exsistingCartItem = cartItems.find(cartItem => cartItem.id === cartItemToRemove.id)
         if (exsistingCartItem.quantity === 1) {

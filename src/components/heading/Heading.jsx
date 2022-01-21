@@ -16,7 +16,7 @@ const Heading = ({ checkOut, personalInformation, trendingShoes }) => {
                     }
                 </>
                 :
-                <h2>PERSONAL INFORMATION</h2>
+                <h2 id="personal-info">PERSONAL INFORMATION</h2>
             }
         </div>
     )
